@@ -24,6 +24,9 @@ img{
     padding-right: 15px;
 }
 /*Шапка*/
+.header-solid{
+    border: 1px solid #EEEEEE;
+}
 .nav-style{
     display: flex;
 }
@@ -377,11 +380,10 @@ img{
     margin-bottom: 0;
 }
 .poster-style{
-    padding: 20px 24px 0px 24px;
+    padding: 20px 24px 20px 24px;
+    border: 1px solid #EEEEEE;
 }
-.skill-studio{
-    padding: 0px 24px 20px 24px;
-}
+
 .studio_style {
     font-family: 'Roboto';
     font-style: normal;
