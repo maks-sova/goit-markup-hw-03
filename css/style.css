@@ -85,6 +85,10 @@ img{
 .style-img:last-child{
     margin-right: 0;
 }
+.style-works{
+    padding-top: 0;
+    
+}
 /*Наша Команда*/
 .info-team{
     display: flex;
@@ -96,19 +100,22 @@ img{
     margin-right: 0;
 }
 .style-id{
-    padding-top: 30px;
+    margin-top: 30px;
     text-align: center;
 }
 .style-skill{
-    padding-top: 10px;
+    margin-top: 10px;
     text-align: center;
+}
+.style-teams{
+    background: #F5F4FA;
 }
 /*Подвал*/
 .styly-ly{
-    padding-bottom: 10px;
+   margin-bottom: 10px;
 }
-.styly-ly:last-child{
-    padding-bottom: 60px;
+.styly-ly:last-child {
+    margin-bottom: 0;
 }
 .info_main {
     background: #FFFFFF;
@@ -192,9 +199,7 @@ img{
 /*Еффективное решение*/
 
 .style_round {
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 30px;
+  
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -210,7 +215,8 @@ img{
 
 /*Кнопка*/
 .info_button{
-    
+    margin-top: 30px;
+    letter-spacing: 0.06em;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -228,9 +234,14 @@ img{
     border: none;   
   
 }
+.style-button{
+    display: block;
+    margin-top: 30px;
+}
 
 /*Пункты в работе*/
 .info_team {
+    margin-bottom: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -254,7 +265,7 @@ img{
 
 .work_team {
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
  
     font-family: 'Roboto';
     font-style: normal;
@@ -288,9 +299,8 @@ img{
 /*подвал*/
 
 .webStudio_2 {
-    padding-top: 60px;
    display: block;
-   padding-bottom: 20px;
+   margin-bottom: 20px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -325,6 +335,8 @@ img{
 
 .info_link {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
 .link_street{
     font-family: 'Roboto';
@@ -343,13 +355,14 @@ img{
 }
 .buttons-skill{
     margin-right: 8px;
-    padding-bottom: 50px;
+    
 }
 .buttons-skill:last-child {
     margin-right: 0;
 }
 /*Портфолио Стулий*/
 .studio-work{
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -359,6 +372,9 @@ img{
 }
 .team-ids:nth-child(3n+3){
     margin-right: 0;
+}
+.team-ids:nth-last-child(-n+3) {
+    margin-bottom: 0;
 }
 .poster-style{
     padding: 20px 24px 0px 24px;
@@ -387,6 +403,7 @@ img{
     text-decoration: none;
 }
 .info_buttons{
+    padding: 6px 22px 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
     font-family: 'Roboto';
@@ -402,6 +419,7 @@ img{
     margin: auto;
 }
 .info_buttons:hover{
+        
         color: #FFFFFF;
         background: #2196F3;
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -409,6 +427,7 @@ img{
 }
 
 .style_work{
+    
 font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
