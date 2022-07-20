@@ -1,3 +1,115 @@
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+*
+* *::before,
+*::after {
+    box-sizing: border-box;
+    }
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*Шапка*/
+.nav-style{
+    display: flex;
+}
+.style-studio{
+    display: flex;
+}
+.style-info{
+    display: flex;
+    margin-left: auto; 
+}
+.style-container{
+    display: flex;
+}
+.activity{
+    margin-right: 50px;  
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+}
+.activity:last-child{
+    margin-right: 0;
+}
+.dio{
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+/*Секция ефективные решения */
+.style-section{
+    background: #2F303A;
+    padding: 200px 0;
+    text-align: center;
+}
+
+/*пункты работы */
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
+.style-paragraph{
+    width: 270px;
+    margin-right: 30px;
+}
+.paragraph{
+    display: flex;
+}
+.style-paragraph:last-child{
+    margin-left: 0;
+}
+
+/*чем занимаемся */
+.style-work{
+    display: flex;
+}
+.style-img{
+    margin-right: 30px;
+}
+.style-img:last-child{
+    margin-right: 0;
+}
+/*Наша Команда*/
+.info-team{
+    display: flex;
+}
+.team-id{
+    margin-right: 30px;
+}
+.team-id:last-child{
+    margin-right: 0;
+}
+.style-id{
+    padding-top: 30px;
+    text-align: center;
+}
+.style-skill{
+    padding-top: 10px;
+    text-align: center;
+}
+/*Подвал*/
+.styly-ly{
+    padding-bottom: 10px;
+}
+.styly-ly:last-child{
+    padding-bottom: 60px;
+}
 .info_main {
     background: #FFFFFF;
     font-family: 'Roboto', 'Raleway';
@@ -28,7 +140,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: #212121;
     text-decoration: none;
     width: 49px;
     height: 16px;
@@ -37,7 +149,7 @@
     color:#2196F3
 }
 .a_studio{
-   
+  
     list-style: none;
 }
 
@@ -52,7 +164,9 @@
     width: 77px;
     height: 16px;
 }
-
+.portfolio.current {
+    color: #2196F3
+}
 .contakts {
     font-weight: 500;
     font-size: 14px;
@@ -78,6 +192,9 @@
 /*Еффективное решение*/
 
 .style_round {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -88,12 +205,12 @@
     text-transform: uppercase;
     margin: auto;
     color: #FFFFFF;
-    background: #2F303A;
     width: 690px;
 }
 
 /*Кнопка*/
 .info_button{
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -136,6 +253,9 @@
 }
 
 .work_team {
+    text-align: center;
+    padding-bottom: 50px;
+ 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -168,6 +288,9 @@
 /*подвал*/
 
 .webStudio_2 {
+    padding-top: 60px;
+   display: block;
+   padding-bottom: 20px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -178,6 +301,7 @@
 }
 
 .style_studio {
+    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -211,7 +335,37 @@
         letter-spacing: 0.03em;
         color: #FFFFFF;
 }
-/*СТИЛИ ІТОРОЙ СТРАНИЦИ*/
+/*СТИЛИ ВТОРОЙ СТРАНИЦИ*/
+/*Кнопки*/
+.style-buttons{
+    display: flex;  
+    justify-content: center;
+}
+.buttons-skill{
+    margin-right: 8px;
+    padding-bottom: 50px;
+}
+.buttons-skill:last-child {
+    margin-right: 0;
+}
+/*Портфолио Стулий*/
+.studio-work{
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-ids {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.team-ids:nth-child(3n+3){
+    margin-right: 0;
+}
+.poster-style{
+    padding: 20px 24px 0px 24px;
+}
+.skill-studio{
+    padding: 0px 24px 20px 24px;
+}
 .studio_style {
     font-family: 'Roboto';
     font-style: normal;

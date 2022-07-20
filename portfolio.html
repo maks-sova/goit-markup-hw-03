@@ -4,150 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <title>Портфолио</title>
+    <title>WebStudio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="info_main">
     <header>
-        <nav>
-            <a class="webStudio">Web<span class="colorweb">Studio</span></a>
-            <ul>
-                <li class="a_studio">
-                    <a href="./index.html" class="studio_style">Студия</a>
+        <div class="container style-container">
+            <nav class="nav-style">
+                <a class="webStudio dio">Web<span class="colorweb">Studio</span></a>
+                <ul class="style-studio">
+                    <li class="a_studio activity">
+                        <a href="./index.html" class="studio">Студия</a>
+                    </li>
+                    <li class="a_studio activity">
+                        <a href="./portfolio.html" class="portfolio current">Портфолио</a>
+                    </li>
+                    <li class="a_studio activity">
+                        <a href="./contakts.html" class="contakts">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <ul class="style-info">
+                <li class="a_studio activity">
+                    <a href="mailtoinfo@devstudio.com" class="link_info">info@devstudio.com</a>
                 </li>
-                <li class="a_studio">
-                    <a href="" class="portfolio_style ">Портфолио</a>
+                <li class="a_studio activity">
+                    <a href="tel+380961111111" class="link_info">+38 096 111 11 11</a>
                 </li>
-                <li class="a_studio">
-                <a href="./contakts.html" class="contakts">Контакты</a>
-            </li>
             </ul>
-        </nav>
-        <ul>
-            <li class="a_studio">
-                <a href="mailtoinfo@devstudio.com" class="link_info">info@devstudio.com</a>
-            </li>
-            <li class="a_studio">
-                <a href="tel+380961111111" class="link_info">+38 096 111 11 11</a>
-            </li>
-        </ul>
+        </div>
     </header>
     <main>
-        <section>
-            <ul >
-                <li class="a_studio">
+        <div class="container">
+        <section class="section">
+            <ul class="style-buttons">
+                <li class="a_studio buttons-skill">
                     <button type="button" class="info_buttons">Все</button>
                 </li>
-                <li class="a_studio">
+                <li class="a_studio buttons-skill">
                     <button type="button" class="info_buttons">Веб-сайты</button>
                 </li>
-                <li class="a_studio">
+                <li class="a_studio buttons-skill">
                     <button type="button" class="info_buttons">Приложения</button>
                 </li>
-                <li class="a_studio">
+                <li class="a_studio buttons-skill">
                     <button type="button" class="info_buttons">Дизайн</button>
                 </li>
-                <li class="a_studio">
+                <li class="a_studio buttons-skill">
                     <button type="button" class="info_buttons">Маркетинг</button>
                 </li>
             </ul>
-                <ul>
-                    <li class="a_studio"><img src="./images-2/img.jpg" width="370" height="290" alt="Ноут"></li>
-                    <li class="a_studio">
-                        <h3 class="style_work">Технокряк</h3>
-                        <p class="style_skill">Веб-сайт</p>
+                <ul class="studio-work">
+                    <li class="a_studio team-ids"><img src="./images/img.jpg" width="370" height="290" alt="Ноут">
+                        <h3 class="style_work poster-style">Технокряк</h3>
+                        <p class="style_skill skill-studio">Веб-сайт</p>
                     </li>
                     
-                </ul>
+                
                
-                <ul>
-                    <li class="a_studio"><img src="./images-2/img(1).jpg" width="370" height="290" alt="Постер"></li>
-                    <li class="a_studio">
-                        <h3 class="style_work">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-                        <p class="style_skill">Дизайн</p>
+                
+                    <li class="a_studio team-ids"><img src="./images/img(1).jpg" width="370" height="290" alt="Постер">
+                        <h3 class="style_work poster-style">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+                        <p class="style_skill skill-studio">Дизайн</p>
+                    </li>
+                    
+                
+                    <li class="a_studio team-ids"><img src="./images/img(2).jpg" width="370" height="290" alt="Постер">
+                        <h3 class="style_work poster-style">Ресторан <span lang="en">Seafood</span></h3>
+                        <p class="style_skill skill-studio">Приложение</p>
+                    </li>
+                    
+               
+                    <li class="a_studio team-ids"><img src="./images/img(3).jpg" width="370" height="290" alt="Наушники">
+                        <h3 class="style_work poster-style">Проект Prime</h3>
+                        <p class="style_skill skill-studio">Маркетинг</p>
+                    </li>
+                    
+             
+                    <li class="a_studio team-ids"><img src="./images/img(4).jpg" width="370" height="290" alt="Коробки">
+                        <h3 class="style_work poster-style">Проект Boxes</h3>
+                        <p class="style_skill skill-studio">Приложение</p>
+                    </li>
+                    
+               
+                    <li class="a_studio team-ids"><img src="./images/img(5).jpg" width="370" height="290" alt="Монитор">
+                        <h3 class="style_work poster-style" lang="en">Inspiration has no Borders</h3>
+                        <p class="style_skill skill-studio">Веб-сайте</p>
+                    </li>
+                    
+               
+                    <li class="a_studio team-ids"><img src="./images/img(6).jpg" width="370" height="290" alt="Книга">
+                        <h3 class="style_work poster-style">Издание<span lang="en">Limited Editions</span></h3>
+                        <p class="style_skill skill-studio">Дизайн</p>
+                    </li>
+                    
+              
+                    <li class="a_studio team-ids"><img src="./images/img(7).jpg" width="370" height="290" alt="Бирка">
+                        <h3 class="style_work poster-style">Проект <span lang="en">LAB</span></h3>
+                        <p class="style_skill skill-studio">Маркетинг</p>
+                    </li>
+                    
+                
+                    <li class="a_studio team-ids"><img src="./images/img(8).jpg" width="370" height="290" alt="Бирка">
+                        <h3 class="style_work poster-style">Growing Business</h3>
+                        <p class="style_skill skill-studio">Приложение</p>
                     </li>
                     
                 </ul>
-
-                <ul>
-                    <li class="a_studio"><img src="./images-2/img(2).jpg" width="370" height="290" alt="Постер"></li>
-                    <li class="a_studio">
-                        <h3 class="style_work">Ресторан <span lang="en">Seafood</span></h3>
-                        <p class="style_skill">Приложение</p>
-                    </li>
-                    
-                </ul>
-
-                <ul>
-                    <li class="a_studio"><img src="./images-2/img(3).jpg" width="370" height="290" alt="Наушники"></li>
-                    <li class="a_studio">
-                        <h3 class="style_work">Проект Prime</h3>
-                        <p class="style_skill">Маркетинг</p>
-                    </li>
-                    
-                </ul>
-
-                <ul>
-                    <li class="a_studio"><img src="./images-2/img(4).jpg" width="370" height="290" alt="Коробки"></li>
-                    <li class="a_studio">
-                        <h3 class="style_work">Проект Boxes</h3>
-                        <p class="style_skill">Приложение</p>
-                    </li>
-                    
-                </ul>
-
-                <ul>
-                    <li class="a_studio"><img src="./images-2/img(5).jpg" width="370" height="290" alt="Монитор"></li>
-                    <li class="a_studio">
-                        <h3 class="style_work" lang="en">Inspiration has no Borders</h3>
-                        <p class="style_skill">Веб-сайте</p>
-                    </li>
-                    
-                </ul>
-
-                <ul>
-                    <li class="a_studio"><img src="./images-2/img(6).jpg" width="370" height="290" alt="Книга"></li>
-                    <li class="a_studio">
-                        <h3 class="style_work">Издание<span lang="en">Limited Editions</span></h3>
-                        <p class="style_skill">Дизайн</p>
-                    </li>
-                    
-                </ul>
-
-                <ul>
-                    <li class="a_studio"><img src="./images-2/img(7).jpg" width="370" height="290" alt="Бирка"></li>
-                    <li class="a_studio">
-                        <h3 class="style_work">Проект <span lang="en">LAB</span></h3>
-                        <p class="style_skill">Маркетинг</p>
-                    </li>
-                    
-                </ul>
-
-                <ul>
-                    <li class="a_studio"><img src="./images-2/img(8).jpg" width="370" height="290" alt="Бирка"></li>
-                    <li class="a_studio">
-                        <h3 class="style_work">Growing Business</h3>
-                        <p class="style_skill">Приложение</p>
-                    </li>
-                    
-                </ul>
+                </div>
         </section>
-        <footer class="info_link">
-            <a class="webStudio_2">Web<span class="style_studio">Studio</span></a>
-            <address>
-                <ul>
-                    <li class="a_studio">
-                        <p class="link_street">г. Киев, пр-т Леси Украинки, 26</p>
-                    </li>
-                    <li class="a_studio"><a href="mailtoinfo@devstudio.com" class="link_infos">info@devstudio.com</a></li>
-                    <li class="a_studio"><a href="tel+380961111111" class="link_infos">+38 096 111 11 11</a></li>
-                </ul>
-            </address>
-        </footer>
+        <div class="container">
+            <footer class="info_link">
+                <a class="webStudio_2">Web<span class="style_studio">Studio</span></a>
+                <address>
+                    <ul>
+                        <li class="a_studio styly-ly">
+                            <p class="link_street">г. Киев, пр-т Леси Украинки, 26</p>
+                        </li>
+                        <li class="a_studio styly-ly"><a href="mailtoinfo@devstudio.com"
+                                class="link_infos">info@devstudio.com</a></li>
+                        <li class="a_studio styly-ly"><a href="tel+380961111111" class="link_infos">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </footer>
+        </div>
     </main>
 </body>
 </html>
